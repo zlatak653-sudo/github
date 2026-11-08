@@ -3,61 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header center">
         <a class="header__link" href="./index.html"><h1 class="header__head">Добро пожаловать <br>на мой сайт мини-игр</h1></a>
-        <p class="header__text">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай «Поехали!» и приступай.</p>
+        <p class="header__text">Тебе предстоит пройти несколько увлекательных игр.<br>Если готов, нажимай <span class="header__text_fat">«Поехали!»</span> и <span class="header__text_fat">приступай</span>.</p>
         <a href="#play"><button class="header__btn">Поехали!</button></a>
-        <div class="scroll">блок прокрутки</div>
+        <nav class="scroll">число <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z" fill="#202027"/>
+</svg>
+ Переверни текст <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z" fill="#202027"/>
+</svg>
+ Простая арифметика <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z" fill="#202027"/>
+</svg>
+ Камень, ножницы</nav>
     </header>
-    <section class="plays">
+    <section class="plays center">
     <div class="plays__desc">
         <h2 class="plays__head" id="play">Об играх</h2>
-        <p class="plays__desc">В моей коллекции представлено 6 игр на разные темы.<br>Игры несложные — в них может поиграть каждый.<br>Все игры доступны для пользования.</p>
+        <p class="plays__text">В моей коллекции представлено 6 игр на разные темы.<br>Игры несложные — в них может поиграть каждый.<br>Все игры доступны для пользования.</p>
     </div>
     <div class="plays__cards">
-        <a href="#"><article class="card">
-            <img class="card__img" src="" alt="Угадай число">
-            <div class="card__text">
+        <a href="#"><article class="card plays__cards-1">
+            <img class="card__img" src="./img-2/игра-1.png" alt="Угадай число">
+            <!--<div class="card__text">
                 <p class="card__text_1">Игра № 1</p>
                 <h3 class="card__text_2">Угадай число</h3>
-            </div>
+            </div>-->
         </article></a>
-        <a href="#"><article class="card">
-            <img class="card__img" src="" alt="Простая арифметика">
-            <div class="card__text">
+        <a href="#"><article class="card plays__cards-2">
+            <img class="card__img" src="./img-2/игра-2.png" alt="Простая арифметика">
+            <!--<div class="card__text">
                 <p class="card__text_1">Игра № 2</p>
                 <h3 class="card__text_2">Простая арифметика</h3>
-            </div>
+            </div>-->
         </article></a>
-        <a href="#"><article class="card">
-            <img class="card__img" src="" alt="Переверни текст">
-            <div class="card__text">
+        <a href="#"><article class="card plays__cards-1">
+            <img class="card__img" src="./img-2/игра-3.png" alt="Переверни текст">
+            <!--<div class="card__text">
                 <p class="card__text_1">Игра № 3</p>
                 <h3 class="card__text_2">Переверни текст</h3>
-            </div>
+            </div>-->
         </article></a>
-        <a href="#"><article class="card">
-            <img class="card__img" src="" alt="Камень, ножницы,  бумага">
-            <div class="card__text">
+        <a href="#"><article class="card plays__cards-2">
+            <img class="card__img" src="./img-2/игра-4.png" alt="Камень, ножницы,  бумага">
+            <!--<div class="card__text">
                 <p class="card__text_1">Игра № 4</p>
                 <h3 class="card__text_2">Камень, ножницы, <br>бумага</h3>
-            </div>
+            </div>-->
         </article></a>
-        <a href="#"><article class="card">
-            <img class="card__img" src="" alt="Простая викторина">
-            <div class="card__text">
+        <a href="#"><article class="card plays__cards-1">
+            <img class="card__img" src="./img-2/игра-5.png" alt="Простая викторина">
+            <!--<div class="card__text">
                 <p class="card__text_1">Игра № 5</p>
                 <h3 class="card__text_2">Простая<br>викторина</h3>
-            </div>
+            </div>-->
         </article></a>
-        <a href="#"><article class="card">
-            <img class="card__img" src="" alt="Генератор  случайных  цветов">
-            <div class="card__text">
+        <a href="#"><article class="card plays__cards-2">
+            <img class="card__img" src="./img-2/игра-6.png" alt="Генератор  случайных  цветов">
+            <!--<div class="card__text">
                 <p class="card__text_1">Игра № 6</p>
                 <h3 class="card__text_2">Генератор <br>случайных <br>цветов</h3>
-            </div>
+            </div>-->
         </article></a>
     </div>
     </section>
