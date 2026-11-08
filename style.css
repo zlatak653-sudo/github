@@ -58,7 +58,7 @@ a {
     padding-bottom: 48px;
 }
 
-.header__text_fat {
+.header__fat {
     font-weight: 600;
     font-style: SemiBold;
     font-size: 24px;
@@ -76,7 +76,18 @@ a {
     margin-bottom: 156px;
 }
 
+.header__btn:hover {
+    cursor: pointer;
+    color: #000000;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
 .scroll {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    box-sizing: border-box;
+
     font-weight: 700;
     font-size: 30px;
     background-color: #BCEC30;
@@ -93,8 +104,11 @@ a {
 
 .plays__cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(377px, 1fr));
+    grid-template-columns: repeat(3, 377px);
     grid-auto-rows: min-content;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 32px;
 }
 
 .plays__cards-1 {
@@ -103,6 +117,14 @@ a {
 
 .plays__cards-2 {
     height: 551px;
+}
+
+.plays__cards-1up {
+    transform: translateY(-45px);
+}
+
+.plays__cards-2up {
+    transform: translateY(-78px);
 }
 
 .plays__head {
