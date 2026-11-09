@@ -23,25 +23,100 @@ a {
 
 .header {
     background-color: #E1FF8F;
-    /*position: relative;
-    background-image: 
-    url(./img-2/Star\ 2.svg),
-    url(./img-2/Star\ 3.svg), 
-    url(./img-2/Star\ 4.svg), 
-    url(./img-2/Star\ 5.svg), 
-    url(./img-2/Vector\ 4780.svg), 
-    url(./img-2/Vector\ 4781.svg), 
-    url(./img-2/Vector\ 4782.svg), 
-    url(./img-2/Vector\ 4788.svg), 
-    url(./img-2/Vector\ 4791.svg);
-    background-repeat: no-repeat;
-    background-position: 
-    63px, 94px;
-    156px, 69px;
-    1013px, 568px;
-    948px, 538px;*/
+    position: relative;
+    overflow: hidden;
 }
 
+.bg-star-2 {
+    position: absolute;
+    top: 94px; 
+    left: 63px;
+    width: 57px;
+    height: 57px;
+    z-index: 1; 
+}
+
+.bg-star-3 {
+    position: absolute;
+    top: 69px; 
+    left: 156px;
+    width: 35px;
+    height: 35px;
+    z-index: 1; 
+}
+
+.bg-star-4 {
+    position: absolute;
+    top: 568px; 
+    left: 1013px;
+    width: 83px;
+    height: 83px;
+    z-index: 1; 
+}
+
+.bg-star-5 {
+    position: absolute;
+    top: 538px; 
+    left: 948px;
+    width: 37px;
+    height: 37px;
+    z-index: 1; 
+}
+
+.bg-vector-1 {
+    position: absolute;
+    top: -10px; 
+    left: 854px;
+    width: 317px;
+    height: 163px;
+    z-index: 1; 
+}
+
+.bg-vector-2 {
+    position: absolute;
+    top: 254px; 
+    left: 1067px;
+    width: 142px;
+    height: 179px;
+    z-index: 1;
+}
+
+.bg-vector-3 {
+    position: absolute;
+    top: 379px; 
+    left: 1225px;
+    width: 219px;
+    height: 418px;
+    z-index: 1;
+}
+
+.bg-vector-4 {
+    position: absolute;
+    top: 468px; 
+    left: 1247px;
+    width: 80px;
+    height: 126px;
+    z-index: 1;
+}
+
+.bg-vector-5 {
+    position: absolute;
+    top: 663px; 
+    left: 1345px;
+    width: 34px;
+    height: 124px;
+    z-index: 1;
+}
+
+.bg-vector-6 {
+    position: absolute;
+    top: -3px; 
+    left: 990px;
+    width: 549px;
+    height: 591px;
+    z-index: 1;
+    rotate: -2deg;
+}
 
 .header__head {
     font-weight: 700;
@@ -96,10 +171,13 @@ a {
     display: flex;
     gap: 51px;
     flex-wrap: nowrap;
+    z-index: 5;
 }
 
 .plays {
     background-color: #202027;
+    /*position: relative;
+    overflow: hidden;*/
 }
 
 .plays__cards{
@@ -109,6 +187,8 @@ a {
     width: 100%;
     box-sizing: border-box;
     gap: 32px;
+    transform: translateX(-31px);
+    z-index: 3;
 }
 
 .plays__cards-1 {
@@ -140,4 +220,31 @@ a {
     color: #FFFFFF;
     padding-top: 24px;
     padding-bottom: 72px;
+}
+
+.bg-star-6 {
+    position: absolute;
+    top: 877px; 
+    left: 933px;
+    width: 584px;
+    height: 584px;
+    z-index: 1;
+}
+
+.bg-star-7 {
+    position: absolute;
+    top: 1570px; 
+    left: 25px;
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+}
+
+.bg-star-8 {
+    position: absolute;
+    top: 1622px; 
+    left: 40px;
+    width: 55px;
+    height: 55px;
+    z-index: 1;
 }
