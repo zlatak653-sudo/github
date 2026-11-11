@@ -176,8 +176,7 @@ a {
 
 .plays {
     background-color: #202027;
-    /*position: relative;
-    overflow: hidden;*/
+    overflow: hidden;
 }
 
 .plays__cards{
@@ -187,8 +186,48 @@ a {
     width: 100%;
     box-sizing: border-box;
     gap: 32px;
-    transform: translateX(-31px);
     z-index: 3;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /*width: 378px;*/
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 0 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+    z-index: 5;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.2);
+}
+
+.card__text {
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+.card__text_1 {
+    background-color: #F7F7F7;
+    border-radius: 53px;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    color: #202027;
+    display: inline-block;
+}
+
+.card__text_2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #202027;
+    padding-top: 16px;
 }
 
 .plays__cards-1 {
@@ -199,12 +238,16 @@ a {
     height: 551px;
 }
 
-.plays__cards-1up {
-    transform: translateY(-45px);
+.plays__cards-3 {
+    height: 512px;
 }
 
+/*.plays__cards-1up {
+    transform: translateY(-45px);
+}*/
+
 .plays__cards-2up {
-    transform: translateY(-78px);
+    transform: translateY(-39px);
 }
 
 .plays__head {
