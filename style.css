@@ -291,3 +291,117 @@ a {
     height: 55px;
     z-index: 1;
 }
+
+.games {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 144px;
+}
+
+.bg-star-9 {
+    position: absolute;
+    top: 93px; 
+    left: 1277px;
+    width: 35px;
+    height: 35px;
+    z-index: 1; 
+}
+
+.bg-star-10 {
+    position: absolute;
+    top: 126px; 
+    left: 1320px;
+    width: 69px;
+    height: 69px;
+    z-index: 1; 
+    rotate: -5.45deg;
+}
+
+.bg-star-11 {
+    position: absolute;
+    top: 3433px;
+    left: 1319px;
+    width: 69px;
+    height: 69px;
+    z-index: 1; 
+}
+
+.bg-star-12 {
+    position: absolute;
+    top: 3481px;
+    left: 1269px;
+    width: 41px;
+    height: 41px;
+    z-index: 1; 
+}
+
+.plays__head-1 {
+    padding-bottom: 72px;
+}
+
+.cards {
+    width: 1200px;
+    height: 500px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-radius: 30px;
+}
+
+.cards-1 {
+    width: 1200px;
+    height: 500px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+.card__text-big {
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+    padding-left: 48px;
+}
+
+.card__text_1-big {
+    font-weight: 700;
+    font-size: 48px;
+    color: #202027;
+    padding-bottom: 24px;
+}
+
+.card__text_2-big {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202027;
+    padding-bottom: 36px;
+}
+
+.card__btn {
+    font-weight: 600;    
+    font-size: 24px;
+    color: #FFFFFF;
+    border: 1px solid #202027;
+    border-radius: 60px;
+    background-color: #202027;
+    padding: 16px 28px;
+    width: 248px;
+}
+
+.ftr {
+    height: 150px;
+    background-color: #BDED35;
+}
+
+.ftr__text {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 60px;
+}
