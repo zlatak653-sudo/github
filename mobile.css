@@ -1,0 +1,101 @@
+@media (max-width:767px) {
+    .header__head {
+        font-size: 40px;
+        max-width: 262px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 147px;
+    }
+
+    .header__text {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 296px;
+        padding-bottom: 36px;
+    }
+
+    .header__text br {
+        display: none;
+    }
+
+    .header__fat {
+        font-size: 16px;
+    }
+
+    .header__btn {
+        padding: 16px 103px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        font-size: 16px;
+    }
+
+    .scroll {
+        margin-top: 131px;
+        font-size: 16px;
+        gap: 5px;
+    }
+
+    .mobilee {
+        display: none;
+    }
+
+    .plays__head-1 {
+        padding-bottom: 16px;
+    }
+
+    .plays__head {
+        font-size: 40px;
+        padding-top: 48px;
+    }
+
+    .games {
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .cards, .cards-1 {
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        min-height: 530px;
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 32px; 
+    }
+
+    .card__text-big {
+        display: flex;
+        padding-top: 29px;
+        padding-left: 29px;
+        max-width: 284px;
+
+    }
+
+    .card__text_1-big {
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+
+    .card__text_2-big {
+        font-size: 16px;
+        padding-bottom: 32px;
+        line-height: 24px;
+    }
+
+    .card__btn {
+        font-size: 16px;
+    }
+
+    .bg-star-6 {
+        display: none;
+    }
+
+    .ftr__text {
+        font-size: 16px;
+    }
+}
