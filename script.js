@@ -41,3 +41,6 @@ const user = {
     age: 21,
     isAdmin: true
 }
+
+const userName = prompt('Как Вас зовут?');
+alert(`Привет, ${userName}!`);
