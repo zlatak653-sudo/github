@@ -34,7 +34,7 @@ num --;
 alert(num);
 
 let age = Number(prompt('Сколько Вам лет?'))
-alert(age)*/
+alert(age)
 
 const user = {
     name: "Эльвина",
@@ -43,4 +43,19 @@ const user = {
 }
 
 const userName = prompt('Как Вас зовут?');
-alert(`Привет, ${userName}!`);
+alert(`Привет, ${userName}!`);*/
+
+let numberUse = Number(prompt('Загадайте любое число'));
+
+let newNumber = numberUse * 2;
+alert(`${numberUse} * 2 = ${newNumber}`);
+
+let newNumber1 = newNumber + 10;
+alert(`${newNumber} + 10 = ${newNumber1}`);
+
+let newNumber2 = newNumber1 / 2;
+alert(`${newNumber1} / 2 = ${newNumber2}`);
+
+let newNumber3 = newNumber2 - numberUse;
+alert(`${newNumber2} - ${numberUse} = ${newNumber3}`);
+alert(`Ответ равен: ${newNumber3}`)
