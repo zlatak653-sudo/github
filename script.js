@@ -1,4 +1,4 @@
-/*let a = 10;
+let a = 10;
 alert(a);
 a = 20;
 alert(a);
@@ -43,7 +43,7 @@ const user = {
 }
 
 const userName = prompt('Как Вас зовут?');
-alert(`Привет, ${userName}!`);*/
+alert(`Привет, ${userName}!`);
 
 let numberUse = Number(prompt('Загадайте любое число'));
 
