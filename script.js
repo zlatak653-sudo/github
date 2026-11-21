@@ -1,5 +1,7 @@
 let a = 10;
 alert(a);
-
 a = 20;
-alert(a)
+alert(a);
+
+let iPhone = 2007;
+alert(`Год выпуска первого iPhone ${iPhone}`);
