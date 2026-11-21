@@ -8,3 +8,10 @@ alert(`Год выпуска первого iPhone: ${iPhone}`);
 
 let name = 'Brendan Eich';
 alert(`Имя создателя языка JavaScript: ${name}`);
+
+let ten = 10;
+let two = 2;
+alert(ten + two);
+alert(ten - two);
+alert(ten * two);
+alert(ten / two);
