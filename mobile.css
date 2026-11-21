@@ -31,6 +31,51 @@
         font-size: 16px;
     }
 
+    .bg-star-5 {
+        position: absolute;
+        top: 557px; 
+        left: 272px;
+        width: 18px;
+        height: 18px;
+        z-index: 1; 
+    }
+
+    .bg-star-4 {
+        position: absolute;
+        top: 580px; 
+        left: 303px;
+        width: 39px;
+        height: 41px;
+        z-index: 1; 
+    }
+
+    .bg-star-3 {
+        position: absolute;
+        top: 64px; 
+        left: 91px;
+        width: 21px;
+        height: 21px;
+        z-index: 1; 
+    }
+
+    .bg-star-2 {
+        position: absolute;
+        top: 91px; 
+        left: 37px;
+        width: 35px;
+        height: 35px;
+        z-index: 1; 
+    }
+
+    .bg-vector-6 {
+        position: absolute;
+        top: -2px;
+        left: 210px;
+        width: 190px;
+        height: 185px;
+        z-index: 1; 
+    }
+
     .scroll {
         margin-top: 131px;
         font-size: 16px;
@@ -59,7 +104,7 @@
     .cards, .cards-1 {
         display: flex;
         flex-direction: column;
-        width: 343px;
+        width: 300px;
         background-color: #FFFFFF;
         border-radius: 30px;
         min-height: 530px;
@@ -99,3 +144,23 @@
         font-size: 16px;
     }
 }
+
+@media  (min-width: 374px) and (max-width: 677px) {
+    .cards, .cards-1 {
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        min-height: 530px;
+        height: auto;
+        flex-direction: column;
+        padding-bottom: 32px; 
+    }
+}
+
+/*@media (max-width: 678px) {
+    .bg-star-6 {
+        display: none;
+    }
+}*/
