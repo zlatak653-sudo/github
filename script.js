@@ -6,8 +6,8 @@ alert(a);
 let iPhone = 2007;
 alert(`Год выпуска первого iPhone: ${iPhone}`);
 
-let name = 'Brendan Eich';
-alert(`Имя создателя языка JavaScript: ${name}`);
+let name0 = 'Brendan Eich';
+alert(`Имя создателя языка JavaScript: ${name0}`);
 
 let ten = 10;
 let two = 2;
@@ -17,7 +17,7 @@ alert(ten * two);
 alert(ten / two);
 
 let result = 2 ** 5;
-alert(result);*/
+alert(result);
 
 let a1 = 9;
 let b1 = 2;
@@ -34,4 +34,10 @@ num --;
 alert(num);
 
 let age = Number(prompt('Сколько Вам лет?'))
-alert(age)
+alert(age)*/
+
+const user = {
+    name: "Эльвина",
+    age: 21,
+    isAdmin: true
+}
