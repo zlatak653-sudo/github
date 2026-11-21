@@ -15,3 +15,6 @@ alert(ten + two);
 alert(ten - two);
 alert(ten * two);
 alert(ten / two);
+
+let result = 2 ** 5;
+alert(result);
