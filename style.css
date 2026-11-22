@@ -393,6 +393,13 @@ a {
     width: 248px;
 }
 
+.card__btn:hover {
+    cursor: pointer;
+    color: #000000;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
 .ftr {
     height: 150px;
     background-color: #BDED35;
