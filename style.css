@@ -177,6 +177,7 @@ a {
 .plays {
     background-color: #202027;
     overflow: hidden;
+    position: relative;
 }
 
 .plays__cards{
@@ -254,7 +255,7 @@ a {
     font-weight: 700;
     font-size: 64px;
     color: #FFFFFF;
-    padding-top: 94px;
+    padding-top: 65px;
 }
 
 .plays__text {
@@ -267,7 +268,7 @@ a {
 
 .bg-star-6 {
     position: absolute;
-    top: 877px; 
+    top: 133px; 
     left: 933px;
     width: 584px;
     height: 584px;
@@ -338,7 +339,7 @@ a {
 }
 
 .plays__head-1 {
-    padding-bottom: 72px;
+    padding-bottom: 40px;
 }
 
 .cards {
@@ -391,6 +392,13 @@ a {
     background-color: #202027;
     padding: 16px 28px;
     width: 248px;
+}
+
+.card__btn:hover {
+    cursor: pointer;
+    color: #000000;
+    background-color: transparent;
+    transition: 0.5s;
 }
 
 .ftr {
