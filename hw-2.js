@@ -21,7 +21,7 @@ alert(result);
 
 let a1 = 9;
 let b1 = 2;
-let result1 = 9 / 2;
+let result1 = 9 % 2;
 alert(result1);
 
 let num = 1;
